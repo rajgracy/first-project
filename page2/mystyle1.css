@@ -1,0 +1,92 @@
+body,html{
+  background-image: url("https://www.luxfragil.com/img/gallery/m_Lux-Acorde-03-017.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container{
+        width: 100%;
+        margin: 0 auto; /* Center the DIV horizontally */
+
+    }
+    .fixed-header{
+        width: 100%;
+        position: fixed;
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+        padding-left: 20px;
+    }
+
+    .fixed-header{
+        top: 0;
+        left: 0;
+    }
+    #header_font_color{
+      color: #37DFD2;
+    }
+    nav a{
+            color: #fff;
+            text-decoration: none;
+            padding: 7px 55px;
+            display: inline-block;
+        }
+    nav a:hover{
+      color: blue;
+        }
+.container1{
+  color: WHITE;
+  padding: 43px;
+}
+.line1{
+  position: relative;
+  text-align: center;
+  width: 230px;
+  float: left;
+  padding-top: 0px;
+  display: inline-block;
+  margin: 3px;
+  padding-left: 60px;
+}
+.button {
+  width: 150px;
+    height: 30px;
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 2px;
+    cursor: pointer;
+}
+.line1 p img{
+  width: 320px;
+  height: 270px;
+}
+#border{
+  border-style: solid;
+   border-color: #DE4528;
+   border-width: 5px;
+   padding: 20px;
+   font-size: 110%;
+}
+#threecoloum{
+  padding-right: 20px;
+  padding-top: 40px;x
+}
+h1{
+  color: #37DFD2;
+}
+.imagetext{
+  position: absolute;
+  top: 20px;
+  left: 80px;
+}
+h2 {
+  color: #37DFD2;
+}

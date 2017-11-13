@@ -1,0 +1,296 @@
+/* Reset body padding and margins */
+body {
+   margin:0;
+   padding:0;
+  }
+
+  .fixed-header{
+      width: 100%;
+      background: #333;
+      padding: 10px 0;
+      color: #fff;
+      padding-left: 20px;
+  }
+
+  .fixed-header{
+      top: 0;
+      left: 0;
+  }
+  #header_font_color{
+    color: #37DFD2;
+  }
+  nav a{
+          color: #fff;
+          text-decoration: none;
+          padding: 7px 50px;
+          display: inline-block;
+      }
+  nav a:hover{
+    color: blue;
+      }
+
+
+
+/* CSS for the content of page. I am giving top and bottom padding of 80px to make sure the header and footer do not overlap the content.*/
+#content_container {
+   margin:0 auto;
+    overflow:auto;
+     padding:20px 0;
+      width:900px;
+     }
+/* Make Footer Sticky */
+#footer_container {
+   background:#3B3938;
+   color: white;
+    border:1px solid #666;
+     bottom:0;
+      height:40px;
+       left:0;
+        position:fixed;
+         width:100%;
+        }
+#footer {
+   line-height:20px;
+    margin:0 auto;
+    padding: 5px 30px;
+     width:940px;
+    }
+#fooder1{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 5px 60px;
+  text-align: center;
+  text-decoration: none;
+    }
+#background{
+  position: relative;
+  color: white;
+  top:0px;
+}
+.bottom_left1{
+  position: absolute;
+  bottom: 60px;
+  left: 16px;
+  font-size: 25px;
+  opacity: 0.5;
+}
+img {
+width: 100%;
+}
+.bottom_left2{
+  position: absolute;
+  bottom: 20px;
+  left: 16px;
+  font-size: 40px;
+  color: red;
+}
+.bottom_right1{
+  position: absolute;
+  bottom: 65px;
+  left: 700px;
+  font-size: 10px;
+}
+.bottom_right2{
+  position: absolute;
+  bottom: 20px;
+  left: 800px;
+  font-size: 40px;
+}
+#subcontent{
+   overflow:auto;
+    padding:10px 0;
+    left: 0;
+     width:600px;
+}
+.searchbox{
+  position: absolute;
+  bottom: 340px;
+  left: 680px;
+}
+.button1{
+  width: 120px;
+  -webkit-transition:all.2s;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px rgba(0,0,0,.5),1px 1px 5px rgba(0,0,0,.3);
+  cursor: pointer;
+  background-color: #63E7F4;
+  border-radius: 25px;
+  color: black;
+  border: none;
+}
+
+#search-text-input{
+    border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom:0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:25px;
+    margin:.8em 0 0 .5em;
+    outline:0;
+    padding:.4em 0 .4em .6em;
+    width:183px;
+}
+
+#button-holder{
+    background-color:#f1f1f1;
+    border-top:thin solid #e5e5e5;
+    box-shadow:1px 1px 1px 1px #e5e5e5;
+    cursor:pointer;
+    float:left;
+    height:27px;
+    margin:11px 0 0 0;
+    text-align:center;
+    width:50px;
+
+}
+
+#button-holder img{
+    margin:4px;
+    width:0px;
+
+}
+#search-text-input{
+  position: absolute;
+  bottom: 350px;
+  left: 700px;
+}
+#button-holder{
+  background-color:#f1f1f1;
+  border-top:thin solid #e5e5e5;
+  box-shadow:1px 1px 1px 1px #e5e5e5;
+  cursor:pointer;
+  float:left;
+  height:25px;
+  margin:11px 0 0 0;
+  text-align:center;
+  width:50px;
+}
+#button-holder{
+  position: absolute;
+  bottom: 350px;
+  left: 890px;
+}
+#button-holder img{
+  margin:4px;
+  width:20px;
+}
+#font{
+  font-size: 25px;
+}
+
+#arrow_content{
+  position: absolute;
+  bottom: 20px;
+  left: 700px;
+}
+
+
+
+span.arrowmark1{
+  font-size: 30px;
+  padding-left: 4cm;
+}
+
+span.arrowmark2{
+  font-size: 30px;
+  padding-left: 3.5cm;
+}
+span.arrowmark3{
+  font-size: 30px;
+  padding-left: 2.8cm;
+}
+span.arrowmark4{
+  font-size: 30px;
+  padding-left: 3.3cm;
+}
+span.arrowmark5{
+  font-size: 30px;
+  padding-left: 3.3cm;
+}
+span.arrowmark6{
+  font-size: 30px;
+  padding-left: 2.5cm;
+}
+#postimage{
+  font-size: 25px;
+}
+
+#line1{
+  position: absolute;
+  bottom: -200px;
+  left: 700px;
+}
+#go_left1{
+  position: absolute;
+  bottom: -180px;
+  left: 800px;
+}
+#line2{
+  position: absolute;
+  bottom: -300px;
+  left: 700px;
+}
+#go_left2{
+  position: absolute;
+  bottom: -280px;
+  left: 800px;
+}
+#line3{
+  position: absolute;
+  bottom: -400px;
+  left: 700px;
+}
+#go_left3{
+  position: absolute;
+  bottom: -380px;
+  left: 800px;
+}
+.button {
+    background-color: #63E7F4;
+    border: none;
+    color: white;
+    padding: 6px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button4 {
+    background-color: #63E7F4;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.lastbtn_container{
+  position: absolute;
+  bottom: -580px;
+  left: 700px;
+}
+
+.lastaddress{
+  position: absolute;
+  bottom: -1600px;
+  left: 700px;
+  font-size: 12px;
+}
+hr.style1 {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
